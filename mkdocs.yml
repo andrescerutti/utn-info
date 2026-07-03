@@ -1,0 +1,63 @@
+site_name: UTN — Proyectos e Información
+site_description: Portal de información y proyectos de la UTN
+site_url: https://andrescerutti.github.io/utn-info/
+
+theme:
+  name: material
+  language: es
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Inicio: index.md
+  - Proyectos:
+      - proyectos/index.md
+      - Estacionamiento: proyectos/estacionamiento.md
+  - Recursos: recursos.md
+  - Interno: interno/index.md
+
+plugins:
+  - search:
+      lang: es
+  - encryptcontent:
+      title_prefix: "🔒 "
+      summary: "Contenido protegido con clave"
+      placeholder: "Ingresá la clave"
+      decryption_failure_message: "Clave incorrecta, probá de nuevo"
+      encryption_info_message: "Pedile la clave al responsable de la sección."
+      # La clave NO vive en el repo: viene de una variable de entorno
+      # (en GitHub Actions, del secret UTN_CLAVE_INTERNO).
+      password_inventory:
+        interno: !ENV [UTN_CLAVE_INTERNO, "clave-solo-para-pruebas-locales"]
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
