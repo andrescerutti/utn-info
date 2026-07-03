@@ -10,10 +10,6 @@ level: interno
 Acá va el material de trabajo interno: actas de reunión, borradores, contactos,
 información que no es para difusión general.
 
-## Fichas internas
-
-- [Jefatura del Área — Departamento de Operaciones TIC](jefatura.md)
-
 ## Cómo funciona
 
 - Esta página se cifra al publicar el sitio (cifrado AES en el navegador).
