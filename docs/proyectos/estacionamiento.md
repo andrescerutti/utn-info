@@ -50,7 +50,7 @@ estudiantes participantes (aplicable a materias y con impacto en sus currículum
 ## Dependencias y gestiones externas
 
 1. **Municipalidad:** apertura, mantenimiento e iluminación de la calle trasera.
-2. **Decisión institucional:** mudanza de la verdulería y política de cuotas.
+2. **Decisión institucional:** mudanza y política de asignación.
 3. **Delimitación del predio:** regularizar el cerco desplazado.
 
 ## Próximos pasos por rol
@@ -62,7 +62,7 @@ presentar el proyecto.
 
 - [ ] Redactar y presentar el proyecto integral ante la UTN.
 - [ ] Solicitar reunión con la municipalidad por la calle trasera.
-- [ ] Gestionar la decisión institucional sobre la verdulería y la política de cuotas.
+- [ ] Gestionar la decisión institucional sobre la mudanza y la política de asignación.
 
 **Líder de Ingeniería Electromecánica**
 
