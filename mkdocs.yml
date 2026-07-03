@@ -5,6 +5,8 @@ site_url: https://andrescerutti.github.io/utn-info/
 theme:
   name: material
   language: es
+  logo: assets/utn-logo.svg
+  favicon: assets/utn-symbol.svg
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
