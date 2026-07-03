@@ -37,8 +37,11 @@ nav:
       - proyectos/index.md
       - Estacionamiento (Cochera 2.0): proyectos/estacionamiento.md
       - Asignación de espacios y aulas: proyectos/asignacion-espacios.md
+      - Cámaras de seguridad: proyectos/camaras-seguridad.md
       - Jefatura del Área (Operaciones TIC): proyectos/jefatura.md
       - Gestión de RAE: proyectos/gestion-rae.md
+      - Programa de becarios y pasantes: proyectos/becarios-pasantes.md
+      - Diplomatura en Ciberseguridad: proyectos/diplomatura-ciberseguridad.md
   - Recursos: recursos.md
   - Interno: interno/index.md
 

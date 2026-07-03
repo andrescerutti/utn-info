@@ -6,8 +6,11 @@ Proyectos en curso e ideas en evaluación.
 |----------|--------|-----------------------|
 | [Estacionamiento (Cochera 2.0)](estacionamiento.md) | En formulación | Electromecánica, Industrial, Civil, Sistemas, Sustentabilidad |
 | [Asignación de espacios y aulas](asignacion-espacios.md) | Piloto en preparación | Sistemas, Mantenimiento, RR.HH. |
+| [Cámaras de seguridad](camaras-seguridad.md) | En formulación | Infraestructura, Sistemas |
 | [Jefatura del Área (Operaciones TIC)](jefatura.md) | En formulación | Operaciones TIC, Secretaría |
 | [Gestión de RAE](gestion-rae.md) | En formulación | Sostenibilidad, Administración |
+| [Programa de becarios y pasantes](becarios-pasantes.md) | En formulación | Sistemas, Secretaría |
+| [Diplomatura en Ciberseguridad](diplomatura-ciberseguridad.md) | En preparación | Oferta académica |
 
 ## ¿Tenés una idea de proyecto?
 
