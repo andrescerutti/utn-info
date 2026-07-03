@@ -7,6 +7,8 @@
     **«Cochera 2.0»**. El alcance detallado (objetivos, funcionalidades prioritarias,
     dependencias internas, recursos y cronograma) está en elaboración.
 
+[Descargar informe completo (PDF)](../assets/docs/estacionamiento-utn.pdf){ .md-button .md-button--primary }
+
 ## Contexto
 
 Un grupo de estudiantes de Ingeniería Electromecánica, en el marco de su materia
