@@ -2,9 +2,11 @@
 
 Proyectos en curso e ideas en evaluación.
 
-| Proyecto | Estado | Carreras involucradas |
+| Proyecto | Estado | Áreas involucradas |
 |----------|--------|-----------------------|
-| [Estacionamiento](estacionamiento.md) | En formulación | Electromecánica, Industrial, Civil, Sistemas, Sustentabilidad |
+| [Estacionamiento (Cochera 2.0)](estacionamiento.md) | En formulación | Electromecánica, Industrial, Civil, Sistemas, Sustentabilidad |
+| [Asignación de espacios y aulas](asignacion-espacios.md) | En formulación | Sistemas, Mantenimiento, RR.HH. |
+| [Gestión de RAE](gestion-rae.md) | En formulación | Sostenibilidad, Administración |
 
 ## ¿Tenés una idea de proyecto?
 

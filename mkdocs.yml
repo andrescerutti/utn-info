@@ -35,9 +35,13 @@ nav:
   - Inicio: index.md
   - Proyectos:
       - proyectos/index.md
-      - Estacionamiento: proyectos/estacionamiento.md
+      - Estacionamiento (Cochera 2.0): proyectos/estacionamiento.md
+      - Asignación de espacios y aulas: proyectos/asignacion-espacios.md
+      - Gestión de RAE: proyectos/gestion-rae.md
   - Recursos: recursos.md
-  - Interno: interno/index.md
+  - Interno:
+      - interno/index.md
+      - Jefatura del Área: interno/jefatura.md
 
 plugins:
   - search:

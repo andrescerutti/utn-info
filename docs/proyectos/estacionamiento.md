@@ -2,6 +2,11 @@
 
 **Estado:** en formulación · **Última actualización:** 03/07/2026
 
+!!! info "También conocido como «Cochera 2.0»"
+    Este proyecto figura entre las prioridades de la Secretaría bajo el nombre
+    **«Cochera 2.0»**. El alcance detallado (objetivos, funcionalidades prioritarias,
+    dependencias internas, recursos y cronograma) está en elaboración.
+
 ## Contexto
 
 Un grupo de estudiantes de Ingeniería Electromecánica, en el marco de su materia
