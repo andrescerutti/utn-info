@@ -21,7 +21,7 @@ estudiantes participantes (aplicable a materias y con impacto en sus currículum
 |---|--------------|---------|
 | 1 | Limpieza del predio | Retiro de los escombros que ocupan parte del terreno. |
 | 2 | Mudanza de la verdulería | Posible traslado (a futuro) para habilitar espacios en el frente. |
-| 3 | Accesos diferenciados | Entrada exclusiva y salida exclusiva, cada una con barrera. |
+| 3 | Accesos diferenciados | Entrada exclusiva y salida exclusiva, cada una con barrera (equipo a adquirir, no a diseñar). |
 | 4 | Calle trasera | Reacondicionamiento: gestionar con la municipalidad su apertura, mantenimiento e iluminación. |
 | 5 | Garita | Trasladarla a la entrada para controlar el ingreso de personas. |
 | 6 | Portones | Colocación de portones para controlar el cierre del predio. |
@@ -30,19 +30,24 @@ estudiantes participantes (aplicable a materias y con impacto en sus currículum
 
 ## Sistema de acceso y asignación de lugares
 
+La barrera **no se diseña, se compra**: se elige un equipo comercial que cumpla
+estas funciones.
+
 - **Barrera con ticket:** al presionar un botón, la barrera emite un ticket que
-  indica la posición donde estacionar. Se mantiene el espíritu de facultad abierta.
+  indica la posición donde estacionar. Se mantiene el espíritu de facultad abierta
+  (no hace falta credencial para ingresar).
+- **Tarjetas con asignación automática:** quienes abonen la cuota a la fundación
+  reciben una tarjeta. Al identificarse con la tarjeta en la barrera, el sistema
+  les asigna automáticamente un lugar dentro de una serie de **slots reservados
+  más próximos a la puerta** de la facultad.
 - **Cámara en la barrera:** monitoreo de ingresos y egresos para entender el flujo.
-- **Tarjetas de acceso:** el personal que abone una cuota accede con tarjeta a
-  espacios reservados más cercanos al ingreso. Quienes no abonen también tienen
-  lugar, en otro sector.
 
 ## Participación por carrera
 
 | Carrera / área | Rol en el proyecto |
 |----------------|--------------------|
-| Ing. Electromecánica | Proyecto base (materia integradora): mejora y optimización del espacio. |
-| Ing. Industrial | Costeo y organización de la parte administrativa. |
+| Ing. Electromecánica | Proyecto base (materia integradora): mejora y optimización del espacio; instalación eléctrica y conexionado de la barrera adquirida. |
+| Ing. Industrial | Costeo, organización administrativa y selección del proveedor de la barrera. |
 | Ing. Civil | Determinación y cálculo de las estructuras. |
 | Ing. en Sistemas | Cámara en la barrera, monitoreo de ingresos y egresos. |
 | Área de Sustentabilidad | Medición del impacto energético y ambiental. |
@@ -66,7 +71,11 @@ presentar el proyecto.
 
 **Líder de Ingeniería Electromecánica**
 
-- [ ] Diseñar el sistema de barreras, sensorización y alimentación eléctrica, incluyendo la emisión de tickets.
+- [ ] Definir la instalación eléctrica y el conexionado de la barrera adquirida (alimentación y puesta en marcha).
+
+**Compras / área a definir**
+
+- [ ] Seleccionar y adquirir la barrera (compra, no diseño): definir proveedor y especificaciones. El equipo debe emitir un ticket con la posición asignada y admitir tarjetas con asignación automática a slots reservados.
 
 **Líder de Ingeniería Civil**
 

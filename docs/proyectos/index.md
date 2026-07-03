@@ -6,5 +6,33 @@ Proyectos en curso e ideas en evaluación.
 |----------|--------|-----------------------|
 | [Estacionamiento](estacionamiento.md) | En formulación | Electromecánica, Industrial, Civil, Sistemas, Sustentabilidad |
 
-!!! tip "¿Tenés una idea de proyecto?"
-    Acercate a la coordinación o abrí un issue en el repositorio del sitio.
+## ¿Tenés una idea de proyecto?
+
+Contanos tu idea y la revisamos. Dejá tu propuesta acá abajo:
+
+<form class="idea-form" onsubmit="return enviarIdea(this)">
+  <label>Tu nombre
+    <input type="text" name="nombre" required placeholder="Nombre y apellido">
+  </label>
+  <label>Tu email <span class="opt">(opcional)</span>
+    <input type="email" name="email" placeholder="tucorreo@ejemplo.com">
+  </label>
+  <label>Tu idea
+    <textarea name="idea" rows="4" required placeholder="Contanos de qué se trata..."></textarea>
+  </label>
+  <button type="submit">Enviar idea</button>
+  <p class="idea-nota">Se abrirá tu correo con el mensaje ya redactado para enviar.</p>
+</form>
+
+<script>
+function enviarIdea(f){
+  var n=f.nombre.value, m=f.email.value, t=f.idea.value;
+  var user="cerutti_andres", dom="hotmail.com";
+  var cuerpo="Nombre: "+n+"\nEmail: "+m+"\n\nIdea:\n"+t;
+  var url="mailto:"+user+"@"+dom
+        +"?subject="+encodeURIComponent("Idea de proyecto — "+n)
+        +"&body="+encodeURIComponent(cuerpo);
+  window.location.href=url;
+  return false;
+}
+</script>

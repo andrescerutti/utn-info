@@ -1,0 +1,70 @@
+/* Logo un poco más alto en el header */
+.md-header__button.md-logo img {
+  height: 2.1rem;
+  width: auto;
+}
+
+/* Formulario de ideas */
+.idea-form {
+  display: flex;
+  flex-direction: column;
+  gap: .9rem;
+  max-width: 34rem;
+  margin: 1rem 0 .5rem;
+  padding: 1.2rem 1.3rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: .6rem;
+  background: var(--md-default-fg-color--lightest);
+}
+
+.idea-form label {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+  font-weight: 600;
+  font-size: .8rem;
+}
+
+.idea-form .opt {
+  font-weight: 400;
+  color: var(--md-default-fg-color--light);
+}
+
+.idea-form input,
+.idea-form textarea {
+  font: inherit;
+  font-weight: 400;
+  padding: .55rem .7rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: .4rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+.idea-form input:focus,
+.idea-form textarea:focus {
+  outline: 2px solid var(--md-accent-fg-color);
+  border-color: transparent;
+}
+
+.idea-form button {
+  align-self: flex-start;
+  padding: .55rem 1.4rem;
+  font: inherit;
+  font-weight: 700;
+  color: var(--md-primary-bg-color);
+  background: var(--md-accent-fg-color);
+  border: none;
+  border-radius: .4rem;
+  cursor: pointer;
+}
+
+.idea-form button:hover {
+  filter: brightness(1.08);
+}
+
+.idea-form .idea-nota {
+  margin: 0;
+  font-size: .72rem;
+  color: var(--md-default-fg-color--light);
+}

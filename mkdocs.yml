@@ -1,21 +1,23 @@
-site_name: UTN — Proyectos e Información
-site_description: Portal de información y proyectos de la UTN
+site_name: Secretaría de Innovación y Transformación
+site_description: Portal de proyectos e información de la Secretaría de Innovación y Transformación — UTN
 site_url: https://andrescerutti.github.io/utn-info/
 
 theme:
   name: material
   language: es
+  logo: assets/utn-logo.svg
+  favicon: assets/utn-symbol.svg
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
+      primary: black
       accent: indigo
       toggle:
         icon: material/weather-night
         name: Modo oscuro
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
+      primary: black
       accent: indigo
       toggle:
         icon: material/weather-sunny
@@ -51,9 +53,16 @@ plugins:
       password_inventory:
         interno: !ENV [UTN_CLAVE_INTERNO, "clave-solo-para-pruebas-locales"]
 
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
 markdown_extensions:
   - admonition
   - attr_list
+  - md_in_html
   - tables
   - toc:
       permalink: true
