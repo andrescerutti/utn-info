@@ -1,12 +1,12 @@
 # Asignación de Espacios y Aulas
 
-**Estado:** piloto en preparación · **Última actualización:** 03/07/2026
+**Estado:** piloto en preparación · **Última actualización:** 08/07/2026
 
 ## Contexto
 
-Proyecto para un sistema de **asignación de espacios y aulas** con un **doble
-propósito**: por un lado la gestión de reservas e incidencias de las aulas, y por
-otro el control de asistencia y horas de los docentes.
+Proyecto para un sistema de **asignación de espacios y aulas**, orientado a la
+gestión de reservas, la ocupación en tiempo real y el circuito de incidencias de
+los espacios de la facultad.
 
 Se lleva adelante dentro del **ámbito académico**, junto a un grupo de estudiantes de
 último año que lo toman como **proyecto final**, ya en coordinación con los docentes.
@@ -19,10 +19,15 @@ Se lleva adelante dentro del **ámbito académico**, junto a un grupo de estudia
 - **Reporte de incidencias:** desde esa aula, el docente puede reportar un problema (por ejemplo, algo que no funciona).
 - **Visibilidad para mantenimiento:** el área de mantenimiento ve la incidencia reportada y la atiende, con trazabilidad del circuito.
 
-### 2. Control de asistencia docente
+### 2. Ocupación en tiempo real
 
-- Registrar la **asistencia** de cada docente.
-- Registrar la **cantidad de horas trabajadas** de cada docente, en el aula y en la facultad en general.
+- **Check-in / check-out por NFC:** al iniciar el uso de un aula, el usuario acerca su
+  teléfono a la etiqueta del espacio y el sistema lo marca como **ocupado**; al
+  finalizar, vuelve a quedar **libre**.
+- **Estado de los espacios a la vista:** cualquier persona autorizada puede ver en
+  tiempo real qué aulas están libres, reservadas u ocupadas.
+- **Reasignación ágil:** si un espacio reservado no registra uso, puede liberarse y
+  reasignarse a otra actividad.
 
 ## Prueba piloto (NFC)
 
@@ -37,8 +42,8 @@ dispositivos que cuenten con esa tecnología.
 ## Problema e impacto
 
 - Falta de trazabilidad en reservas e incidencias.
-- Ausencia de un control centralizado de asistencia y horas.
-- Impacto esperado: mejora operativa y mejor gestión de mantenimiento y de RR.HH.
+- Falta de visibilidad en tiempo real sobre qué espacios están libres u ocupados.
+- Impacto esperado: mejor aprovechamiento de aulas y espacios, y mejor gestión de mantenimiento.
 
 ## Próximos pasos
 
@@ -47,7 +52,6 @@ dispositivos que cuenten con esa tecnología.
 - [x] Adquirir las etiquetas NFC para el piloto.
 - [ ] Ejecutar las primeras pruebas piloto en espacios específicos (estimado: ~3 semanas).
 - [ ] Diseñar el flujo de reporte de incidencias desde el aula y el circuito de atención por mantenimiento.
-- [ ] Especificar el módulo de control de asistencia y horas docentes (criterios de registro y reportes).
 - [ ] Definir la integración con los sistemas existentes si aplica.
 
 !!! note "Estado"
