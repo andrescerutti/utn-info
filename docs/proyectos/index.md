@@ -5,7 +5,7 @@ Proyectos en curso e ideas en evaluación.
 | Proyecto | Estado | Áreas involucradas |
 |----------|--------|-----------------------|
 | [Estacionamiento (Cochera 2.0)](estacionamiento.md) | En formulación | Electromecánica, Industrial, Civil, Sistemas, Sustentabilidad |
-| [Asignación de espacios y aulas](asignacion-espacios.md) | Piloto en preparación | Sistemas, Mantenimiento, RR.HH. |
+| [Asignación de espacios y aulas](asignacion-espacios.md) | Piloto en preparación | Sistemas, Mantenimiento |
 | [Cámaras de seguridad](camaras-seguridad.md) | En formulación | Infraestructura, Sistemas |
 | [Jefatura del Área (Operaciones TIC)](jefatura.md) | En formulación | Operaciones TIC, Secretaría |
 | [Gestión de RAE](gestion-rae.md) | En formulación | Sostenibilidad, Administración |
